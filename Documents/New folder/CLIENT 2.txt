@@ -1,0 +1,58 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\faith> cd downloads
+PS C:\Users\faith\downloads> Windows PowerShell
+Windows : The term 'Windows' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if
+a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Windows PowerShell
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Windows:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\faith\downloads> Copyright (C) Microsoft Corporation. All rights reserved.
+C : The term 'C' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:12
++ Copyright (C) Microsoft Corporation. All rights reserved.
++            ~
+    + CategoryInfo          : ObjectNotFound: (C:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\faith\downloads>
+PS C:\Users\faith\downloads> Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+Install : The term 'Install' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if
+a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Install the latest PowerShell for new features and improvements! http ...
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Install:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\faith\downloads>
+PS C:\Users\faith\downloads> PS C:\Users\faith> cd downloads
+Get-Process : A positional parameter cannot be found that accepts argument 'cd'.
+At line:1 char:1
++ PS C:\Users\faith> cd downloads
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetProcessCommand
+
+PS C:\Users\faith\downloads> PS C:\Users\faith\downloads>
+PS : Cannot find a process with the name "C:\Users\faith\downloads>". Verify the process name and call the cmdlet again.
+At line:1 char:1
++ PS C:\Users\faith\downloads>
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\faith\downloads>:String) [Get-Process], ProcessCommandException
+    + FullyQualifiedErrorId : NoProcessFoundForGivenName,Microsoft.PowerShell.Commands.GetProcessCommand
+
+PS C:\Users\faith\downloads>cd 
+CommandNotFoundException
+
+
+
+
+
